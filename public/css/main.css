@@ -273,6 +273,11 @@ p {
   gap: 50px;
 }
 
+.intro_img img {
+  width: 445px;
+  height: auto;
+}
+
 .intro_text {
   padding-top: 2.5rem;
 }
@@ -344,7 +349,7 @@ footer {
   width: var(--width-large);
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 800px) {
   header {
     width: var(--width-tablet);
     padding: 1rem 2rem;
@@ -367,7 +372,7 @@ footer {
     width: var(--width-tablet);
     height: auto;
 
-    padding: 3rem 1rem;
+    padding: 3rem 0;
 
     gap: 18px;
   }
@@ -400,6 +405,24 @@ footer {
   .grid_block-6 {
     grid-column: 3 / 5;
     grid-row: 3 / 4;
+  }
+
+  .intro {
+    width: var(--width-tablet);
+    padding: 0;
+  }
+
+  .intro_text h1 {
+    font-size: var(--fs-small);
+    padding: 0;
+    line-height: 40px;
+
+    font-weight: 700;
+  }
+
+  .intro_img img {
+    width: 365px;
+    height: auto;
   }
 }
 
